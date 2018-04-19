@@ -1,0 +1,148 @@
+body
+{
+	background: #EEEEEE;
+	font-family: calibri;
+}
+.pembungkus
+{
+	width: 1100px;
+	border: 0px solid #222;
+	margin: 0px auto;
+}
+nav
+{
+	width: 1100px;
+	height: 60px;
+	background: white;
+
+}
+nav ul
+{
+	margin: 0px;
+	padding: 10px;
+	list-style: none;
+	ine-height: 50px;
+}
+nav ul li
+{
+	display: inline-block; 
+	line-height: 50px;
+
+}
+nav ul li a
+{
+	text-decoration: none;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	font-size: 20px;
+	color: #757575;
+}
+nav ul li a:hover
+{
+	background: #EEEEEE;
+
+}
+.table, th, td {
+	border: 1px solid #E0E0E0;
+	padding: 8px 20px;
+}
+.konten
+{
+	width: 1100px;
+	background: grey;
+}
+
+.grid-container 
+{
+	display: grid;
+	grid-template-columns: 300px auto ;
+	grid-gap: 10px;
+	background-color: #EEEEEE;
+	padding: 10px;
+}
+.grid-container > div 
+{
+	background-color: white;
+	padding: 0px;
+}
+.grid
+{
+	display: grid;
+	grid-template-columns: 300px auto ;
+	grid-gap: 0px;
+	background-color: white;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.grid > div {
+	background-color: rgba(255, 255, 255, 0.8);
+
+	text-align: left;
+
+}
+.grid-nav
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.judul
+{
+	text-align: left;
+	color: #2196F3;
+	font-size: 30px; 
+	padding-top: 0px;
+}
+.judul p span
+{
+	color: blue;
+}
+.img
+{
+	padding-top: 36px;
+
+}
+.judul-left
+{
+	color: #757575;
+	font-size: 15px;
+	font-weight: bold;
+}
+.item2 > div
+{
+	width: 300px;
+	height: 40px;
+	background: #BDBDBD;
+	color : #424242;
+	line-height: 40px;
+
+}
+.item2 ul
+{
+	padding: 11px;
+}
+.item2 ul li
+{
+	list-style: none;
+	font-size: 15px;
+
+	line-height: 30px;
+
+}
+.item2 ul li a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+footer
+{
+	background: #BDBDBD;
+	width: 1100px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
